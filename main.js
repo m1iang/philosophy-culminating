@@ -54,7 +54,7 @@ const scenes = [
   },
   { // scene 4
     "isImageOrText": "image",
-    "image": `<img src="images/tuan yuan fan.png" width="40%" alt="">`,
+    "image": `<img src="images/tuan yuan fan.png" width="40%" alt=""><p>Image from (卡通家庭图片, n.d.)</p>`,
     "button": `<button id="scene-4-button" onclick="scene4Button()" class="hover:text-sky-800 pt-6"
     style="font-size: 24px; font-family: 'Times New Roman', Times, serif;">well... what does 天 and 命運 have to do with free will and determinism?</button>`,
     "caption": `<h1 class="pt-12">growing up, I would often hear the words 天 and 命運 used whenever something surprising but joyous occur. also when something really lucky and coincidental happens</h1>`,
@@ -82,7 +82,7 @@ const scenes = [
   },
   { // scene 6
     "isImageOrText": "image",
-    "image": `<img src = "images/hack the north.jpeg" width = "40%" alt = ""> `,
+    "image": `<img src = "images/hack the north.jpeg" width = "40%" alt = ""><p>Image from (Tu, 2019)</p>`,
     "button": `<button button id = "scene-6-button" onclick = "scene6Button()" class="hover:text-sky-800 pt-6"
 style = "font-size: 24px; font-family: 'Times New Roman', Times, serif;" > next</button > `,
     "caption": `<h1 h1 class="pt-12 pb-2" >👀 upcoming hackathon @UW, very excited</h1 > `,
@@ -111,7 +111,7 @@ style = "font-size: 24px; font-family: 'Times New Roman', Times, serif;" > aweso
   },
   { // scene 8
     "isImageOrText": "image",
-    "image": `<img src = "images/thinker.png" width = "40%" alt = ""> `,
+    "image": `<img src = "images/thinker.png" width = "40%" alt = ""><p>Image from (The Thinker Art Print n.d.)</p>`,
     "button": `<button button id = "scene-8-button" onclick = "scene8Button()" class="hover:text-sky-800 pt-6"
 style = "font-size: 24px; font-family: 'Times New Roman', Times, serif;" > next</button > `,
     "caption": `<h1 h1 class="pt-12 pb-2 text-2xl" > <i>cogito, ergo sum</i></h1 > `,
@@ -141,7 +141,7 @@ style = "font-size: 24px; font-family: 'Times New Roman', Times, serif;" > next<
   },
   { // scene 10
     "isImageOrText": "image",
-    "image": `<img src = "images/reality.png" width = "40%" alt = ""> `,
+    "image": `<img src = "images/reality.png" width = "40%" alt = "">`,
     "button": `<button button id = "scene-10-button" onclick = "scene10Button()" class="hover:text-sky-800 pt-6"
 style = "font-size: 24px; font-family: 'Times New Roman', Times, serif;" > next</button > `,
     "caption": `<h1 h1 class="pt-12 pb-2 text-2xl" > <i>Reality and the Divine</i></h1 > `,
@@ -155,8 +155,6 @@ style = "font-size: 24px; font-family: 'Times New Roman', Times, serif;" > next<
     "caption": ``,
     "text": `
   <div div class="prose text-left pt-24 pb-6" >
-  
-  <h1 id="supreme-beings-and-my-world">Supreme Beings and <em>My</em> World</h1>
 
   <h1 id="supreme-beings-and-my-world">Supreme Beings and <em>My</em> World</h1>
 <h2 id="what-is-reality-">What is Reality?</h2>
@@ -175,7 +173,7 @@ style = "font-size: 24px; font-family: 'Times New Roman', Times, serif;" > next<
   },
   { // scene 12
     "isImageOrText": "image",
-    "image": `<img src = "images/philosophy.png" width = "40%" alt = ""> `,
+    "image": `<img src = "images/philosophy.png" width = "40%" alt = ""><p>Image from (S, n.d.)</p>`,
     "button": `<button button id = "scene-12-button" onclick = "scene12Button()" class="hover:text-sky-800 pt-6"
 style = "font-size: 24px; font-family: 'Times New Roman', Times, serif;" > see the world.</button > `,
     "caption": `<h1 h1 class="pt-12 pb-2 text-2xl" > <i></i></h1 > `,

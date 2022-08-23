@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  text-align: center !important;
+  background-color: #F5F2E9;
+}
+
+::selection {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  background-color: transparent;
+}
+
+.animate>* {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}

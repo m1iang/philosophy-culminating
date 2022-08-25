@@ -4,7 +4,7 @@ const scenes = [
     "isImageOrText": "image",
     "image": `<img src="images/doorway.png" width="40%" alt="">`,
     "caption": `<h1 id="scene-1-title" class="pt-12 pb-2 text-6xl italic" style="font-family: 'Times New Roman';">Odyssey</h1>
-    <h2 id="scene-1-subtitle" class="text-lg pt-2">A personal philosophical microcosm <i><small>by mike</small></i></h2>`,
+    <h2 id="scene-1-subtitle" class="text-lg pt-2">A personal philosophical microcosm</h2>`,
     "button": `<button id="begin-button" onclick="beginButton()" class="hover:text-sky-800"
     style="font-size: 24px; font-family: 'Times New Roman', Times, serif;">Begin</button>`,
     "text": "",
@@ -211,7 +211,6 @@ const displayTitle = () => {
         <a href="" class="text-white pt-6 transition ease-in-out delay-150 hover:scale-110 duration-300">re-enter the microcosm</a>
         <br>
           <br>
-            <a href="https://github.com/yak-fumblepack/philosophy-culminating" class="text-white pt-24 transition ease-in-out delay-150 hover:scale-110 duration-300">view source code</a>
             `;
 }
 
